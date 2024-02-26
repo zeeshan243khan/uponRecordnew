@@ -1,0 +1,104 @@
+.upper_heading{
+    color: navy;
+    font-weight: bold;
+    font-size: 20px;
+}
+.upeer_heading
+{
+    color: navy;
+    font-weight: bold;
+}
+.main-title{
+    display: flex;
+}
+.iconn{
+    font-size: 20px;
+}
+.iconn img{
+    width: 22px;
+}
+.box_header{
+    margin-top: 50px;
+    justify-content: center;
+}
+
+/* --------------- */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .december button{
+    border: none;
+    background-color: transparent;
+  }
+  /* 
+  dropdown */
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\2212";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content:"\2b";
+}
+
+.panel-heading a:after {
+  font-family:'Glyphicons Halflings';
+  content:"\2212";
+  float: right;
+  color: grey;
+}
+.panel-heading a.collapsed:after {
+  content:"\2b";
+}
+span{
+    text-decoration: none !important;
+}
+#twobtn button{
+    padding: 10px;
+    width: 140px;
+    border: none;
+}
+.apply_button{
+    background-color: rgb(8, 8, 63);
+    color: white;
+}
+.hide {
+    display: none;
+  }
+      
+  #myDIV:hover + .hide {
+    display: block;
+    border: 1px solid black;
+    color: red;
+  }

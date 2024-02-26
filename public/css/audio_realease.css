@@ -1,0 +1,183 @@
+.upload-icon-audio {
+    border: 1px solid gray;
+}
+
+.upload-btn-audio {
+    border: 1px solid #182444;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
+.upload-btn-audio:hover {
+    background-color: #182444;
+    color: #fff;
+}
+
+.required::after {
+    content: ' *';
+    color: red;
+}
+
+.ftp-import-btn {
+    background-color: #fff;
+    color: #182444 !important;
+    border: 1px solid #182444;
+    text-align: center;
+    transition: all 0.3s linear;
+    border-radius: 4px;
+    cursor: pointer !important;
+}
+
+.ftp-import-btn:hover {
+    background-color: #182444;
+    color: #fff !important;
+}
+
+.redText {
+    color: red;
+}
+
+.grayText {
+    color: #000;
+    opacity: 0.8;
+}
+
+.blackText {
+    color: #000;
+}
+
+.file-zilla-btn {
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.informative-content {
+    background-color: #182444;
+    color: #fff;
+    padding: 5px;
+}
+
+/* Style for the custom file input container */
+.custom-file-input-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Style for the hidden file input */
+.custom-file-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Style for the custom button appearance */
+.custom-file-button {
+    display: inline-block;
+    padding: 8px 26px;
+    background-color: #182444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 400px;
+}
+
+.cancel-uploads-btn {
+    padding: 8px 26px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    width: 400px;
+}
+
+.format-links a {
+    color: blue;
+    text-decoration: underline;
+}
+
+i {
+    cursor: pointer;
+    user-select: none;
+}
+
+.check-uncheck-btn {
+    border: none;
+    background-color: transparent;
+    color: #0d6efd;
+    transition: all 0.3s ease-out;
+}
+
+.check-uncheck-btn:hover {
+    color: #182444;
+    text-decoration: underline;
+}
+
+.promotion-delete-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.promotion-delete-btn:hover {
+    color: red;
+}
+
+.promotion-delete-btn2 {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.promotion-delete-btn2:hover {
+    color: red;
+}
+
+.concert-delete-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.concert-delete-btn:hover {
+    color: red;
+}
+
+.supportHeading {
+    color: #182444;
+    font-weight: bold;
+}
+
+.error-box {
+    color: #a94442;
+    background-color: #f2dede;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+
+.error-btn {
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error-btn:hover {
+    background-color: #c54944;
+}
+
+.details-btn {
+    background-color: #5bc0de;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}

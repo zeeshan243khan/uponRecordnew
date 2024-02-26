@@ -1,0 +1,119 @@
+.search-btn {
+    border: 1px solid #fff;
+    background-color: rgb(7, 7, 57);
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+
+.search-btn:hover {
+    background-color: #fff;
+    color: #182444;
+    border: 1px solid #182444;
+}
+
+
+.advanced-btn {
+    border: 1px solid gray;
+    opacity: 0.8;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.advanced-btn:hover {
+    background-color: #eceaea;
+}
+
+.export-btn {
+    border: 1px solid gray;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.export-btn:hover {
+    background-color: #eceaea;
+}
+
+.table-btn {
+    border: 1px solid gray;
+    background-color: #fff;
+}
+
+.delivered-btn-table {
+    padding: 4px 14px !important;
+}
+
+.edit {
+    cursor: pointer;
+}
+
+
+.fa-trash {
+    cursor: pointer;
+}
+
+/* delete model btn css  */
+.delete-model-btn {
+    border: 1px solid #182444;
+    background-color: #fff;
+    padding: 4px 10px;
+}
+
+.delete-model-btn:hover {
+    background-color: #182444;
+    color: #fff;
+}
+
+.ok-model-btn {
+    border: 1px solid #fff;
+    background-color: #182444;
+    color: #fff;
+    padding: 4px 10px;
+    display: none;
+}
+
+.ok-model-btn:hover {
+    background-color: #fff;
+    color: #182444;
+    border: 1px solid #182444;
+}
+
+/* delete model btn css  */
+
+.mini-heading {
+    color: #182444;
+    font-size: 20px;
+    position: relative;
+}
+
+.mini-heading::after {
+    content: "";
+    display: block;
+    width: inherit;
+    border-bottom: 1px solid #928f8f;
+    opacity: 0.8;
+}
+
+.heading-p {
+    font-size: 18px;
+}
+
+.btn-btn {
+    padding: 4px 14px;
+    background-color: #182444;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.btn-btn:hover {
+    border: 1px solid #182444;
+    background-color: #fff;
+    color: #182444;
+}
+
+@media screen and (max-width: 768px) {
+    .btn-box {
+        margin-top: 5px;
+        text-align: center;
+        justify-content: start;
+    }
+}

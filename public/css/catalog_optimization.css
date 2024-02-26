@@ -1,0 +1,293 @@
+.heading45{
+    color: gray;
+}
+.no_data{
+    background-color: rgb(196, 191, 191); 
+    width: 100%;
+     height: 80px;
+     padding: 4px;
+}
+.check_out p{
+z-index: 999;
+color: black;
+font-weight: bold;
+padding: 4px;
+}
+body{
+    /* text-align:center;  */
+    /* background-color:#ffcc8e; */
+  }
+  
+  .button button{
+    background-color: navy;
+    color: white;
+    border-radius: 4px;
+  }
+  
+.progress{
+    width: 500px;
+  /* margin-left: 26px; */
+}
+
+/* styles.css */
+
+/* Loader Styles */
+.loader {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Hide content initially */
+.hidden {
+    display: none;
+}
+.card-header p{
+  font-size: 40px;
+  color: navy;
+  padding: 16px;
+  font-weight: bold;
+}
+.card-body button a{
+  color: white;
+}
+.button a{
+  color: white;
+  padding: 16px;
+}
+/* icon model form open */
+
+body{}.form-control:focus{color: #495057;background-color: #fff;border-color: #80bdff;outline: 0;box-shadow: 0 0 0 0rem rgba(0,123,255,.25)}.btn-secondary:focus{box-shadow: 0 0 0 0rem rgba(108,117,125,.5)}.close:focus{box-shadow: 0 0 0 0rem rgba(108,117,125,.5)}.mt-200{margin-top:200px}
+.box1{
+/* display: flex;
+justify-content: center;
+align-items: center; */
+/* margin-left: 120PX; */
+/* background-color: red; */
+/* width: 100%;
+height: 100%;
+position: absolute;
+top: 200px;
+left: 0; */
+}
+.box111{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+/* margin-left: 120PX; */
+/* background-color: red; */
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.603);
+top: 0;
+left: 0;
+}
+.form{
+padding: 40px;
+/* color: navy; */
+}
+.heading1{
+color: rgb(4, 4, 92);
+font-size: 24px;
+}
+.check{
+color: rgb(11, 38, 148);
+}
+.main_heading{
+padding: 10px;
+color: white;
+}
+.upper_div{
+/* width: 419px; */
+width: inherit;
+height: 40px;
+/* background-color: rgb(238, 236, 236); */
+
+background-color: rgb(36, 31, 69);
+
+}
+
+
+.box form{
+    /* text-align: center; */
+    margin-left: 260px;
+    overflow: hidden;
+/* border: 1px solid black; */
+width: 520px;
+height: 320px;
+box-shadow: rgba(21, 12, 148, 0.35) 0px 5px 15px;
+border-radius: 20px;
+}
+
+/* model */
+.boxx{
+  position: absolute;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* margin-left: 120PX; */
+  /* background-color: red; */
+  width: 500px;
+  height:500px;
+  background-color:white;
+  top: 0;
+  left: 0;
+  margin-left: 340px;
+  margin-top: 40px;
+  z-index: 999;
+
+}
+
+  .fist_heading{
+    height: 40px;
+    background-color: navy;
+    justify-self: inherit;
+    width: 500px;
+  }
+  .fist_heading{
+    display: flex;
+    justify-content: space-between;
+  }
+  .x{
+    padding: 10px;
+    color: white;
+  }
+.x h4{
+color: white;
+
+}
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: navy; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(45, 160, 189); 
+  }
+  .contaner{
+    /* padding: 40px; */
+  }
+  /* Example CSS */
+     .scroll-box {
+      /* Set the desired width */
+      height: 460px; /* Set the desired height */
+      overflow-x: auto; /* or 'scroll' to enable X-axis scrollbar */
+      overflow-y: auto; /* or 'scroll' to enable Y-axis scrollbar */
+      border: 1px solid #ccc;
+      padding: 10px;
+      justify-content: inherits;
+    }
+    @media only screen and (max-width: 600px) {
+        .boxx{
+            visibility: hidden;
+        }
+      }
+      /* short form video */
+      #box {
+        display: none;
+        position: absolute;
+        background-color: rgb(6, 6, 46);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        color: reds;
+      }
+  
+      /* Style for the button */
+      #myButton {
+        /* padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer; */
+      }
+      /* menu bar satrt  down icon*/
+
+      .navv {
+        display: flex;
+        /* flex-wrap: wrap; */
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+      /* menu bar end down icon */
+      /* toggel button hovers */
+      .toggle-button {
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #3498db; /* Default color */
+        color: #fff; /* Default text color */
+    }
+
+    /* Styling for the toggle button when clicked */
+    .toggle-button.clicked {
+        background-color: #2980b9; /* Color change on click */
+    }
+    .card-body{
+        padding: 100px;
+    }
+    .last_main_div{
+        margin: 10px;
+        padding: 40px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    .card-bodyy{
+        padding: 6px;
+    }
+    /* @media only screen and (max-width: 1024px) {
+   .card img{
+    height: 140x;
+   }
+    }
+    
+     */
+.card-bodyy button a{
+  margin-bottom: 20px;
+  color: white;
+}
+.card-title{
+  padding: 10px;
+}
+.containerr{
+  text-align: center;
+}
+.nav-item a:hover{
+  background-color: rgb(6, 6, 49);
+  color: white;
+}
+.catalog{
+    color: black;
+    font-size: 30px;
+    margin-top: -20px;
+}

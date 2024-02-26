@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header img {
+    max-width: 100px; /* Adjust the max-width according to your logo size */
+    height: auto;
+}
+
+nav {
+    display: flex;
+    /* justify-content: center; */
+    background-color: #e5e4e43e;
+    padding: 14px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+.belive{
+    display: flex;
+}
+.un{
+    padding: 28px;
+    font-size: 26spx;
+}
