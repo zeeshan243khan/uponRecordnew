@@ -105,7 +105,7 @@
               </div>
               <div class="profile_info d-flex align-items-center">
                 <div class="profile_thumb mr_20">
-                  <img src="img/transfer/4.png" alt="#" />
+                  <img src="/img/transfer/4.png" alt="#" />
                 </div>
                 <div class="author_name">
                   <h4 class="f_s_15 f_w_500 mb-0">{{ Auth::user()->name }}</h4>
